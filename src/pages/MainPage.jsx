@@ -50,7 +50,7 @@ function MainPage() {
             ))}
           </ul>
         ) : (
-          <h1>No Tasks Available</h1>
+          <h1>{language["noTasksAvailable"]}</h1>
         )}
       </div>
     </PageContainer>
