@@ -1,0 +1,51 @@
+.todos-card {
+  min-width: 24rem;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+
+  & > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    & > div {
+      display: flex;
+      gap: 1rem;
+
+      & a {
+        color: #515151;
+        &:hover {
+          color: #8c8c8c;
+        }
+      }
+
+      & button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #ff0000dc;
+        &:hover {
+          color: #ff0000;
+        }
+      }
+    }
+  }
+
+  & > div:last-child {
+    margin-top: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.completed {
+  border: 2px solid #006700;
+  border-left: 4px solid #006700;
+}
+
+.in-progress {
+  border: 2px solid #ff6200;
+  border-left: 4px solid #ff6200;
+}

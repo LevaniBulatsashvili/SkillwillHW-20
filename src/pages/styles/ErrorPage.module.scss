@@ -1,0 +1,23 @@
+.error-page {
+  height: 50vh;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+  & h1 {
+    color: #b40000;
+  }
+
+  & a {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+
+    &:hover {
+      color: #4b4b4b;
+    }
+  }
+}
